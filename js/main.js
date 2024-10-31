@@ -1,8 +1,8 @@
-//Scroll при натисненні на кнопку "Переглянути автомобілі"
+
 document.getElementById("main-action").onclick = function () {
     document.getElementById("cars").scrollIntoView({ behavior: "smooth" });
 };
-  //Scroll при натисненні на кнопку "Забронювати"
+  
 let buttons = document.getElementsByClassName("car-button");
 for (let i = 0; i < buttons.length; i++) {
     buttons[i].onclick = function () {
@@ -10,7 +10,7 @@ for (let i = 0; i < buttons.length; i++) {
     };
 }
   
-  //Валідація форми на frontend
+
 document.getElementById("price-action").onclick = function () {
     if (document.getElementById("name").value === "") {
       alert("Заповніть поле ім'я!");
@@ -23,7 +23,7 @@ document.getElementById("price-action").onclick = function () {
     }
 };
   
-//Дз. Підібрати замість 3-х даних стрічкового типу оптимальні значення цифр і чисел
+
 document.addEventListener("DOMContentLoaded", function () {
     let layer = document.querySelector(".price-image");
     document.addEventListener("mousemove", (event) => {
