@@ -29,9 +29,9 @@ document.addEventListener("DOMContentLoaded", function () {
     document.addEventListener("mousemove", (event) => {
       layer.style.transform =
         "translate3d(" +
-        (event.clientX * 0.5) / 5 +
+        (event.clientX * 0.5) / 12 +
         "px," +
-        (event.clientY * 0.8) / 5 +
+        (event.clientY * 0.8) / 15 +
         "px,0px)";
     });
   
